@@ -42,5 +42,5 @@ macse_expanded.sh
 iqtree.sh
 - Taking the alignments from macse_alignments_species and creating Newick trees with branch lengths.
 
-plots_socials.sh (plots_socials.R)
-- Plotting distributions of terminal branch lengths of all three social species using ape in R.
+log_raw_plots.sh (log_raw_plots.R)
+- Plotting distributions of terminal branch lengths of all three social species in facet plots using ape in R. 
