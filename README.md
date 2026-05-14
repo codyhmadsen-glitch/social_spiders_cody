@@ -43,4 +43,9 @@ iqtree.sh
 - Taking the alignments from macse_alignments_species and creating Newick trees with branch lengths.
 
 log_raw_plots.sh (log_raw_plots.R)
-- Plotting distributions of terminal branch lengths of all three social species in facet plots using ape in R. 
+- Plotting distributions of terminal branch lengths of all three social species in facet plots using ape in R.
+
+phyl_trees.sh (phyl_trees.R)
+	- Takes orthogroup Newick trees of each species and makes PDFs of each gene family with phylogenetic trees of each species next to one another.
+	- Input: folder with Newick tree files of all social species
+Output: PDFs of phylogenetic trees ("orthogroup name".pdf)
